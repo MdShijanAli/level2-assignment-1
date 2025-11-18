@@ -35,7 +35,7 @@ class Person {
 // Problem 4:
 type Item = {
   title: string;
-  rating: number;
+  rating: 0 | 1 | 2 | 3 | 4 | 5;
 };
 
 function filterByRating(items: Item[]): Item[] {
